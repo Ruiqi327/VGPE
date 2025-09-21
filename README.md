@@ -15,8 +15,8 @@
 <img width="250" height="1054" alt="image" src="https://github.com/user-attachments/assets/9242f5c5-063b-468a-9ea3-9a55222060b7" />
 
 ### VGPE-color
-<img width="200" height="1239" alt="image" src="https://github.com/user-attachments/assets/b8709f15-2c46-498a-a609-26397914e618" />
-<img width="200" height="1239" alt="image" src="https://github.com/user-attachments/assets/19bafa58-b6e2-4af6-9645-e9b5b499123e" />
+<img width="150" height="1239" alt="image" src="https://github.com/user-attachments/assets/b8709f15-2c46-498a-a609-26397914e618" />
+<img width="150" height="1239" alt="image" src="https://github.com/user-attachments/assets/19bafa58-b6e2-4af6-9645-e9b5b499123e" />
 <img width="150" height="1239" alt="image" src="https://github.com/user-attachments/assets/f0505a52-4935-4a72-a44a-7a9bf256f2a3" />
 <img width="300" height="1138" alt="image" src="https://github.com/user-attachments/assets/66c96b24-92ad-47ee-bbb7-a3d173a46eca" />
 
