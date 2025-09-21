@@ -10,9 +10,9 @@
 <img width="200" height="1458" alt="image" src="https://github.com/user-attachments/assets/50378ea9-e4bc-4898-abbb-4d99c9d81402" />
 
 ### VGPE-layout
-<img width="300" height="1366" alt="image" src="https://github.com/user-attachments/assets/e72c4c9c-1611-4f2f-99b9-83800ac3826e" />
-<img width="300" height="1142" alt="image" src="https://github.com/user-attachments/assets/51634be6-cc3f-4d60-b2c7-6bfa1009ea0c" />
-<img width="300" height="1054" alt="image" src="https://github.com/user-attachments/assets/9242f5c5-063b-468a-9ea3-9a55222060b7" />
+<img width="250" height="1366" alt="image" src="https://github.com/user-attachments/assets/e72c4c9c-1611-4f2f-99b9-83800ac3826e" />
+<img width="250" height="1142" alt="image" src="https://github.com/user-attachments/assets/51634be6-cc3f-4d60-b2c7-6bfa1009ea0c" />
+<img width="250" height="1054" alt="image" src="https://github.com/user-attachments/assets/9242f5c5-063b-468a-9ea3-9a55222060b7" />
 
 ### VGPE-color
 <img width="200" height="1239" alt="image" src="https://github.com/user-attachments/assets/b8709f15-2c46-498a-a609-26397914e618" />
