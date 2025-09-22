@@ -1,5 +1,9 @@
 # VGPE: A Visual Graph Perception Evaluation Benchmark
 
+## Access of VGPE dataset
+https://pan.quark.cn/s/65c71c8780b7
+This dataset contains VGPE-base, -edge, -layout, -node, -color and VGPE-base-tiny for GPT-4.1.
+
 ## Examples of VGPE-node, -edge, -layout and -color.
 ### VGPE-node (Tiny,small,Big)
 <img width="300" height="575" alt="image" src="https://github.com/user-attachments/assets/723028a9-271d-420a-b8b7-b5631468aa73" />
