@@ -4,6 +4,14 @@
 https://pan.quark.cn/s/65c71c8780b7
 This dataset contains VGPE-base, -edge, -layout, -node, -color and VGPE-base-tiny for GPT-4.1.
 
+## Task Templates
+NC: Please answer the following question only with Yes or No, do not add any other words. Does Node " + str(index) + " exist in this graph?
+DGC: Please answer the following question only with Yes or No, do not add any other words. Is this graph directed?
+WGC: Please answer the following question only with Yes or No, do not add any other words. Is this graph weighted?
+EC: Please answer the following question only with Yes or No, do not add any other words. Without distinguishing the direction of edges, is there an edge between Node " + str(index1) + " and Node " + str(index2) + "?
+DQ: Regardless of direction, please check if there is any edge between Node "+str(index1)+" and Node "+str(index2)+", if you don't see any edge between them, please only answer 0. If there is an edge, then answer Yes if Node "+str(index1)+" points to         Node "+str(index2)+", otherwise answer No. Do not add any other words.
+WQ: Please answer the following question with only one number, do not add any other words. Without distinguishing the direction of edges, what is the weight of the edge connecting Node "+str(index1)+" with Node "+str(index2)+"? If you don't see any edge      between them, please only answer 0.
+
 ## Examples of VGPE-node, -edge, -layout and -color.
 ### VGPE-node (Tiny,small,Big)
 <img width="300" height="575" alt="image" src="https://github.com/user-attachments/assets/723028a9-271d-420a-b8b7-b5631468aa73" />
