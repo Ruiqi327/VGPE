@@ -3,6 +3,9 @@
 ## Benchmark overview
 <img width="944" height="908" alt="image" src="https://github.com/user-attachments/assets/edf3024d-ba89-4401-b432-5a0445474654" />
 
+## Test results on VGPE-base
+<img width="944" height="1262" alt="image" src="https://github.com/user-attachments/assets/a4164afd-49d7-469d-9bf9-57ec83eac108" />
+
 
 ## Access of VGPE dataset
 https://pan.quark.cn/s/65c71c8780b7
