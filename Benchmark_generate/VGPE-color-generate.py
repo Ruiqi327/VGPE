@@ -16,14 +16,14 @@ from caption import generate_caption
 #def    generate_caption(G, direct, weight)->return descriptions
 
 
-root_dir = "D:\\CVPR_code"
-graph_parent = "D:\\CVPR_code\\VGPE-Graph\\VGPE-color"
+root_dir = ""
+graph_parent = ""
 subfolders = ["Graph_level1", "Graph_level2", "Graph_level3","Graph_level4"]
 
 #各种图的总数
 atom_number=30
 layout_number=1
-type_number=4
+type_number=4S
 level_number=4
 
 #分配字典
@@ -160,4 +160,5 @@ for level in range(3,4):
                 # 保存为JSON文件
                 with open(file_path, 'w', encoding='utf-8') as f:
                     json.dump(json_data, f, ensure_ascii=False, indent=2)  # indent=2让JSON更易读
+
                 print(f"已生成：{file_path}")
