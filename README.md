@@ -1,6 +1,6 @@
 # VGPE: A Visual Graph Perception Evaluation Benchmark
 
-# Benchmark overview
+## Benchmark overview
 <img width="944" height="908" alt="image" src="https://github.com/user-attachments/assets/edf3024d-ba89-4401-b432-5a0445474654" />
 
 
