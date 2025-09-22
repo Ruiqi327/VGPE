@@ -6,10 +6,13 @@
 
 ## Access of VGPE dataset
 https://pan.quark.cn/s/65c71c8780b7
+
 This dataset contains VGPE-base, -edge, -layout, -node, -color and VGPE-base-tiny for GPT-4.1.
 
 ## Access of models' answers on VGPE
 https://pan.quark.cn/s/39926088306c
+
+The answers contains all results from those eight VLMs.
 
 ## Task Templates
 NC: Please answer the following question only with Yes or No, do not add any other words. Does Node " + str(index) + " exist in this graph?
