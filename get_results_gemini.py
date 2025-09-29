@@ -9,13 +9,13 @@ from openai import OpenAIError
 
 class OpenAIEvaluator:
     def __init__(self, input_json_dir, output_base_dir):
-        self.api_key =r'sk-bDKAPj6D53DF6a6c4DFeT3BLbkFJD83a6eBd02de4e83951E'
+        self.api_key =r''
         if not self.api_key:
             raise ValueError("请设置环境变量 'OPENAI_API_KEY'（OpenAI密钥）")
 
         self.client = OpenAI(
             api_key=self.api_key,
-            base_url='https://api.ohmygpt.com/v1'
+            base_url=''
         )
         self.input_json_dir = input_json_dir
         self.output_base_dir = output_base_dir
@@ -206,13 +206,13 @@ class OpenAIEvaluator:
 
 
 if __name__ == "__main__":
-    graph_parent = "D:\\CVPR_code\\VGPE-Graph\\VGPE-base"
+    graph_parent = ""
     input_json_dirs = [
         os.path.join(graph_parent, "Graph_level1"),
         os.path.join(graph_parent, "Graph_level2"),
         os.path.join(graph_parent, "Graph_level3")
     ]
-    output_base_dir = "D:\\CVPR_code\\gemini_answer"
+    output_base_dir = ""
 
     if os.path.exists(output_base_dir):
         shutil.rmtree(output_base_dir)
@@ -225,5 +225,6 @@ if __name__ == "__main__":
         )
         level_results = evaluator.run_processing(level)
         all_results.append(level_results)
+
 
     print("\n===== 所有难度等级处理完成 =====")
