@@ -26,19 +26,15 @@ class QwenVLEvaluator:
         os.makedirs(self.output_base_dir, exist_ok=True)
 
     def _get_access_token(self):
-        """获取Qwen API的访问令牌（部分平台需要，通义千问可能直接用API Key）"""
-        # 通义千问API通常直接使用api_key作为认证，无需单独获取token
-        # 此处保留兼容其他平台的逻辑，实际可简化
         return self.api_key
 
 
     def _call_qwen_api(self, pic_base64, questions):
         headers = {
             "Content-Type": "application/json",
-            "Authorization": f"Bearer {self._get_access_token()}"  # 通义千问认证格式
+            "Authorization": f"Bearer {self._get_access_token()}" 
         }
 
-        # 构造消息内容（Qwen2.5VL要求图片用特定格式嵌入）
         messages = [
             {
                 "role": "system",
@@ -46,11 +42,10 @@ class QwenVLEvaluator:
             },
             {
                 "role": "user",
-                "content": []  # 用于存放文本和图片
+                "content": [] 
             }
         ]
 
-        # 先添加图片（Qwen要求图片用base64格式，带前缀）
         if pic_base64:
             # 确保base64字符串不带前缀，此处补充完整格式
             if not pic_base64.startswith("data:image"):
@@ -264,17 +259,16 @@ class QwenVLEvaluator:
 
 
 if __name__ == "__main__":
-    graph_parent = "D:\\CVPR_code\\VGPE-Graph\\VGPE-color"
+    graph_parent = " "
     input_json_dirs = [
         os.path.join(graph_parent, "Graph_level1"),
         os.path.join(graph_parent, "Graph_level2"),
-        os.path.join(graph_parent, "Graph_level3"),
-        os.path.join(graph_parent, "Graph_level4")
+        os.path.join(graph_parent, "Graph_level3")
     ]
 
-    output_base_dir = "D:\\CVPR_code\\Qwen2.5-vl 72b answer"  # 输出目录
+    output_base_dir = " "  # 输出目录
     # 以下为需要您提供的Qwen2.5VL相关信息
-    QWEN_API_KEY = "sk-c0a86eab235140a784053b5ee7f30ea4"  # 替换为您的Qwen API Key
+    QWEN_API_KEY = " "  # 替换为您的Qwen API Key
     QWEN_API_SECRET = "your_qwen_api_secret"  # 替换为您的Qwen API Secret（如不需要可留空）
     QWEN_REGION = "cn-beijing"  # 替换为您的API地域（如cn-hangzhou）
 
@@ -295,5 +289,6 @@ if __name__ == "__main__":
         )
         level_results = evaluator.run_processing(level)
         all_results.append(level_results)
+
 
     print("\n===== 所有处理完成 =====")
